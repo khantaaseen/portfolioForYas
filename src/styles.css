@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Satisfy&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;    
+}
+
+body {
+    margin: 0;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    padding: 1px 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+nav > a {
+    padding: 10px;
+}
+
+nav > a:hover,
+nav > a:active{
+    color: rgb(83, 152, 175);
+}
+
+.scrolled {
+    background-color: #44b3c9;
+    -webkit-box-shadow: 0 8px 6px -6px #507880;
+    -moz-box-shadow: 0 8px 6px -6px #507880;
+    box-shadow: 0 8px 6px -6px #507880;
+}
+
+.banner_bg-image {
+    background-image: linear-gradient(
+      1turn, #12121255, 50%, transparent, 96%, #121212
+    );
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.about-title {
+    font-family: 'Satisfy', sans-serif; 
+    color: aquamarine;
+    text-align: center;
+    padding: 30px;
+    cursor: default;
+    font-size: 40px;
+}
+
+.desc {
+    width: 40%;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+
+.edu-banner {
+    background-image: url(imgs/field.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+}
+
+.logo {
+    width: 50%;
+    height: 50vh;
+}
+
+.grad {
+    width: 50%;
+    height: 50vh;
+}
+
+/* .education-experience{
+    display: inline-flex;
+    padding: 50px;
+    justify-content: space-around;
+    width: 100%;
+} */
+
+.edu-content{
+    display: flex;
+    font-size: 10px;
+    justify-content: space-around;
+    padding: 20px;
+    line-height: 2;
+    font-family: sans-serif;
+    /* border-left: 5px solid black;
+    border-right: 5px solid black;
+    border-radius: 4%; */
+}
+
+.ford-img{
+    width: 49%;
+}
+
+.exp-container{
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.exp-scroll-container{
+    max-width: 800px;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    overflow-y: scroll;
+    border-radius: 4%;
+    padding: 0px 20px 20px 20px;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    will-change: transform;
+    cursor: default;
+}
+
+.exp-scroll-obj{
+    scroll-behavior: smooth;
+    line-height: 1.5;
+    opacity: 0.5;
+    cursor: default;
+}
+
+.exp-scroll-container:hover,
+.exp-scroll-obj:hover{
+    opacity: 1;
+}
+
+
+.exp-scroll-obj > p{
+    padding: 10px;
+}
+
+.current-container{
+    max-width: 1300px;
+    width: 100%;
+    margin: auto;
+    padding: 0px 20px;
+}
+
+.curr-section{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.curr-title{
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: sans-serif;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+
+.card{
+    flex: 0 0 calc(33.33% - 20px);
+    max-width: calc(33.33% - 20px);
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: .3s;
+    border: 3px solid black;
+    font-family: sans-serif;
+}
+
+.card:hover{
+    border-color: #1D39C4;
+}
+
+.goals-container{
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+    cursor: default;
+    padding: 50px;
+}
+
+.top-row{
+    display: inline-flex;
+    padding: 20px;
+    justify-content: space-around;
+    width: auto;
+    text-align: center;
+}
+
+.bottom-row{
+    display: inline-flex;
+    padding: 20px;
+    justify-content: space-around;
+    width: auto;
+    text-align: center;
+}
+
+
+@media(max-width: 600px){
+
+    .card{
+        flex: 0 0 100%;
+        max-width: 100%;
+        
+    }
+
+    .edu-content{
+        font-size: 18px;
+    }
+
+
+    .edu-content,
+    .exp-scroll-container{
+        border: none;
+        opacity: 1;
+    }
+
+    .edu-content{
+        font-size: 18px;
+    }
+
+    .exp-scroll-obj{
+        opacity: 1;
+    }
+
+    .curr-title{
+        font-size: 20px;
+    }
+
+    .about-title{
+        font-size: 30px;
+    }
+    
+    .about{
+        display: inline;
+
+    }
+    .desc{
+        width: 100%;
+        font-size: 18px;
+        padding: 10px 20px 20px 20px;
+    }
+}
+
+@media(max-width: 969px){
+    .curr-section{
+        padding: 20px 0px;
+    }
+    .curr-title{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .card{
+        flex: 0 0 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+
+    }
+
+    .education-experience{
+        display: inline;
+    }
+
+    .desc{
+        width: 100%;
+        font-size: 12px;
+        padding-bottom: 20px;
+    }
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    .card{
+        flex: 0 0 calc(43.33% - 30px);
+        max-width: calc(43.33% - 30px);
+        padding: 25px;
+        margin-bottom: 20px;
+        font-size: 28px;
+        font-family: sans-serif;
+    }
+
+}
+
+
+/* Extra small devices (phones, 600px and down) 
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) 
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) 
+@media only screen and (min-width: 768px) {}
+*/
+
+
+
+
+/* .pic-swiper{
+    max-width: 1200px;
+    width: 100%;
+    padding: 40px 0px;
+}
+
+.swipe-container{
+    margin: 0 40px;
+    overflow: hidden;
+
+}
+
+.swipe-slide{
+    font-size: 18px;
+    width: 500px;
+}
+
+.box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box > img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.swiper-pagination-bullet{
+    background: #fff;
+    width: 9px;
+    height: 9px;
+} */
