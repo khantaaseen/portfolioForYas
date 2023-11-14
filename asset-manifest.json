@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolioForYas/static/css/main.1df3261f.css",
+    "main.js": "/portfolioForYas/static/js/main.b64777cf.js",
+    "static/js/787.be358811.chunk.js": "/portfolioForYas/static/js/787.be358811.chunk.js",
+    "static/media/waterfall.jpg": "/portfolioForYas/static/media/waterfall.afc6fc3e3aa3561b1316.jpg",
+    "static/media/aya.jpg": "/portfolioForYas/static/media/aya.45d853580c891300d36d.jpg",
+    "static/media/book.jpg": "/portfolioForYas/static/media/book.2a2e1d965d047621ba0a.jpg",
+    "static/media/beach.jpg": "/portfolioForYas/static/media/beach.e2421cd4d509a23554aa.jpg",
+    "static/media/field.jpg": "/portfolioForYas/static/media/field.d0de0c4ba2ae49f2974e.jpg",
+    "static/media/WoF_Event_7(1).png": "/portfolioForYas/static/media/WoF_Event_7(1).6b13da52edb7403bd434.png",
+    "static/media/FordTeamPic.JPG": "/portfolioForYas/static/media/FordTeamPic.47963655be1346dc7127.JPG",
+    "static/media/sanjuan.png": "/portfolioForYas/static/media/sanjuan.cf2021128d6b7e693b8e.png",
+    "static/media/fishing.jpg": "/portfolioForYas/static/media/fishing.9045add05100e363fce0.jpg",
+    "static/media/mcwt2023hackathon.PNG": "/portfolioForYas/static/media/mcwt2023hackathon.280d172375697b156f53.PNG",
+    "static/media/futuregoals.png": "/portfolioForYas/static/media/futuregoals.4369804692c281de3c69.png",
+    "static/media/grad.jpeg": "/portfolioForYas/static/media/grad.1c9c738139cf3406a753.jpeg",
+    "static/media/hackathonpic2022.JPG": "/portfolioForYas/static/media/hackathonpic2022.6db27c15415eb4c67a88.JPG",
+    "static/media/ou-logo.jpeg": "/portfolioForYas/static/media/ou-logo.d9c507b2d031b3a9f4fb.jpeg",
+    "index.html": "/portfolioForYas/index.html",
+    "main.1df3261f.css.map": "/portfolioForYas/static/css/main.1df3261f.css.map",
+    "main.b64777cf.js.map": "/portfolioForYas/static/js/main.b64777cf.js.map",
+    "787.be358811.chunk.js.map": "/portfolioForYas/static/js/787.be358811.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1df3261f.css",
+    "static/js/main.b64777cf.js"
+  ]
+}
